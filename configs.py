@@ -4,10 +4,10 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", 17795878))
-	API_HASH = os.environ.get("API_HASH", 89f0ba12609f23b400d8c951809a9393)
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5323376035:AAFXL5j5-YwQbXJ9l7d7BmF99j0kByePHvI")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", Oxyver_File_Share_bot)
+	API_ID = int(os.environ.get("API_ID"))
+	API_HASH = os.environ.get("API_HASH")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
